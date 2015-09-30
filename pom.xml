@@ -10,7 +10,7 @@
     <description>EZ 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-parent</url>
     <packaging>pom</packaging>
-    <version>0.1.4</version>
+    <version>0.1.5</version>
 
     <licenses>
         <license>
@@ -49,7 +49,6 @@
             <groupId>org.scala-lang</groupId>
             <artifactId>scala-library</artifactId>
             <version>${scala.minor.version}</version>
-            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.typesafe.scala-logging</groupId>
@@ -59,10 +58,6 @@
                 <exclusion>
                     <groupId>org.scala-lang</groupId>
                     <artifactId>scala-library</artifactId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.scala-lang</groupId>
-                    <artifactId>scala-reflect</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
