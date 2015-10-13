@@ -7,7 +7,7 @@ EZ Parent
     <dependency>
         <groupId>com.ecfront</groupId>
         <artifactId>ez-parent</artifactId>
-        <version>0.1.1</version>
+        <version>0.1.5</version>
     </dependency>
 
 ### Check out sources
