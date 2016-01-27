@@ -6,11 +6,11 @@
 
 [source]
 ----
-<dependency>
+<parent>
     <groupId>com.ecfront</groupId>
     <artifactId>ez-parent</artifactId>
     <version>0.1.6</version>
-</dependency>
+</parent>
 ----
 
 === Check out sources
