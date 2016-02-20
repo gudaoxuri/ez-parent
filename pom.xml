@@ -10,7 +10,7 @@
     <description>EZ 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-parent</url>
     <packaging>pom</packaging>
-    <version>0.1.6</version>
+    <version>0.1.7</version>
 
     <licenses>
         <license>
@@ -134,14 +134,6 @@
                         <maven-version>${project.version}</maven-version>
                     </attributes>
                 </configuration>
-                <executions>
-                    <execution>
-                        <goals>
-                            <goal>process-asciidoc</goal>
-                        </goals>
-                        <phase>package</phase>
-                    </execution>
-                </executions>
             </plugin>
         </plugins>
     </build>
