@@ -10,7 +10,7 @@
     <description>EZ 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-parent</url>
     <packaging>pom</packaging>
-    <version>0.1.7</version>
+    <version>0.1.8</version>
 
     <licenses>
         <license>
@@ -39,7 +39,8 @@
         <scala.major.version>2.11</scala.major.version>
         <scala.minor.version>2.11.7</scala.minor.version>
         <logging.version>2.1.2</logging.version>
-        <logback.version>1.1.3</logback.version>
+        <logback.version>1.1.6</logback.version>
+        <log4j.version>1.7.19</log4j.version>
         <scalatest.version>2.2.5</scalatest.version>
         <scala-maven-plugin.version>3.2.0</scala-maven-plugin.version>
         <asciidoc.dir>${project.basedir}/doc</asciidoc.dir>
@@ -75,6 +76,13 @@
             <groupId>ch.qos.logback</groupId>
             <artifactId>logback-classic</artifactId>
             <version>${logback.version}</version>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
+            <version>${log4j.version}</version>
+            <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>org.scalatest</groupId>
