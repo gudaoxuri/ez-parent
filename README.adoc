@@ -6,6 +6,7 @@
 . 支持Asciidoc文件生成（执行mvn asciidoctor:process-asciidoc）
 . 预引入slf4j日志工具，日志实现由子项目自行决定
 . 预引入scalatest作为测试工具
+. 支持发布到maven中央仓库
 
 == 使用
 
