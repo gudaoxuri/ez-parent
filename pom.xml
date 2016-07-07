@@ -10,8 +10,28 @@
     <description>EZ 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-parent</url>
     <packaging>pom</packaging>
-    <version>0.1.9</version>
+    <version>1.0.0</version>
 
+    <properties>
+        <!--jdk默认使用1.8版本-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+        <jdk.version>1.8</jdk.version>
+        <!--scala默认使用2.11.8版本-->
+        <scala.major.version>2.11</scala.major.version>
+        <scala.minor.version>2.11.8</scala.minor.version>
+        <!--添加主流log包-->
+        <logging.version>2.1.2</logging.version>
+        <logback.version>1.1.7</logback.version>
+        <log4j.version>1.2.17</log4j.version>
+        <scalatest.version>2.2.6</scalatest.version>
+        <scala-maven-plugin.version>3.2.2</scala-maven-plugin.version>
+        <!--asciidoc生成的默认路径-->
+        <asciidoc.dir>${project.basedir}/doc</asciidoc.dir>
+    </properties>
+
+    <!--默认许可证-->
     <licenses>
         <license>
             <name>The Apache License, Version 2.0</name>
@@ -19,6 +39,7 @@
         </license>
     </licenses>
 
+    <!--默认开发者信息-->
     <developers>
         <developer>
             <name>gudaoxuri</name>
@@ -28,26 +49,12 @@
         </developer>
     </developers>
 
+    <!--默认SCM-->
     <scm>
         <connection>scm:git:git@github.com:gudaoxuri/ez-parent.git</connection>
         <developerConnection>scm:git:git@github.com:gudaoxuri/ez-parent.git</developerConnection>
         <url>git@github.com:gudaoxuri/ez-parent.git</url>
     </scm>
-
-    <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
-        <jdk.version>1.8</jdk.version>
-        <scala.major.version>2.11</scala.major.version>
-        <scala.minor.version>2.11.7</scala.minor.version>
-        <logging.version>2.1.2</logging.version>
-        <logback.version>1.1.6</logback.version>
-        <log4j.version>1.7.19</log4j.version>
-        <scalatest.version>2.2.5</scalatest.version>
-        <scala-maven-plugin.version>3.2.0</scala-maven-plugin.version>
-        <asciidoc.dir>${project.basedir}/doc</asciidoc.dir>
-    </properties>
 
     <dependencies>
         <dependency>
