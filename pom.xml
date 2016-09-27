@@ -10,7 +10,7 @@
     <description>EZ 构建框架</description>
     <url>https://github.com/gudaoxuri/ez-parent</url>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
 
     <properties>
         <!--jdk默认使用1.8版本-->
@@ -24,8 +24,8 @@
         <!--添加主流log包-->
         <logging.version>2.1.2</logging.version>
         <logback.version>1.1.7</logback.version>
-        <log4j.version>1.2.17</log4j.version>
-        <scalatest.version>2.2.6</scalatest.version>
+        <log4j.version>1.7.21</log4j.version>
+        <scalatest.version>3.0.0</scalatest.version>
         <scala-maven-plugin.version>3.2.2</scala-maven-plugin.version>
         <!--asciidoc生成的默认路径-->
         <asciidoc.dir>${project.basedir}/doc</asciidoc.dir>
